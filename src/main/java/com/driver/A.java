@@ -1,5 +1,7 @@
+package com.driver;
+
 public class A {
-  public String method1(){
-    return "method is overiden in class B";
-  }
+    public String meth() {
+        return "Invoking method from class A";
+    }
 }
