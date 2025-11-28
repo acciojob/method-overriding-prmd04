@@ -1,10 +1,6 @@
 package com.driver;
 
-public class A {
-  public String method1(){
-    return "method is overiden in class B";
-  }
-}
+
 public class B extends A{
   public String method1(){
     return "Method is overridden in Extended class B";
